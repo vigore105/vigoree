@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+   .orta{
+    text-align: center;
+   }
+   .buttonlar{
+    text-align: center;
+   }
+</style>
+
+<head>
+    
+    <link rel="icon" href="3.gif" type="image/x-icon" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <body bgcolor="#000000"></body>
+</head>
+<body>
+    
+    
+    <iframe src="sarki.mp3" loop id="x" allow="autoplay" style="display:none">
+    </iframe> 
+    <audio id="y">
+    
+      <source src="sarki.mp3"  type="audio/mpeg">
+    
+    </audio>
+    
+      
+    
+    <script>
+     function play() {
+           y.play();
+        }
+    
+        function pause() {
+    
+          x.setAttribute("src", "");
+           y.pause();
+        }  
+    </script>
+    
+
+
+    <div class="banner">
+<div class="navbar">
+    <img src="1.gif" alt="" class="logo" height="300px" width="300px">
+    <div class="orta">
+    <p><font color="white" size="4px" >vigore, Oct,19,2018 Member Since. Professional anne sikici Game Player.
+    </font></p>
+    <p><font color="blue" size="3px" > şehire indik korkun
+    </font></p>
+    <p><font color="yellow" size="4px" > vigore#1000 vigore#9099
+    </font></p>
+</div>
+    <img src="2.gif" alt="" class="logo" height="300px" width="300px">
+    
+
+
+
+
+</div>
+<div class="content">
+<h1>VIGORE</h1>
+<a href="https://www.youtube.com/channel/UCjlONzIfsQVgpORezsgmxuQ"><button type="button">Youtube</button></a>
+<a href="https://discord.gg/X7U3tHtErV"><button type="button">Discord</button></a>
+<button type="button">Github</button>
+<div class="buttonlar"><button onclick="play()">Music On</button>
+    <button onclick="pause()">Music Off</button>   </div>
+</div>
+    </div>
+
+
+
+    
+</body>
+</html>

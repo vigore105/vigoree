@@ -1,2 +1,2 @@
-# vvigore.github.io
+# vigore
 html
